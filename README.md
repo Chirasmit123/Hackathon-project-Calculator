@@ -12,13 +12,13 @@ This project is a basic mathematics calculator that has been made using HTML, CS
 Since this is a common project that every newbie does when he/she enters into the world of web-development, and also since it's one of the popular basic projects that newbies do, I decided to test my skills by choosing this to be my first ever web-development project.
 
 ### How these 7 days of codathon helped me in this project?
-I would say that I could make this project only because of the resources that these 7 days of Codathon provided me with. I never had an experience of learning things from written resources, like I had experience but I would say it was never a good one. But the resources provided in these 7 days consist of not only written documents but also interactive videos related to the topic, which increased interest to learn more. 
+I would say that I could make this project only because of the resources that these 7 days of Codathon provided me with. I never had an experience of learning things from written resources, like I had experience but I would say it was never a good one. But the resources provided in these 7 days consisted of not only written documents but also interactive videos related to the topic, which increased my interest to learn more. 
 
 ### Hosted link:
 I have hosted it using netlify app : https://yourcalculatorfriend.netlify.app/
 
 ### Personal details:
-My name: Chirasmita Nanda
-My registration number: 2041014016
+* My name: Chirasmita Nanda
+* My registration number: 2041014016
 
 ## THANK YOU FOR VISITING!
