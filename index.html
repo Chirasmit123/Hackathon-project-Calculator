@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<head>
+    <script type = "text/javascript" src="script.js"></script>
+    <style>
+        body{
+            background-image: url("https://thumbs.dreamstime.com/b/seamless-math-symbols-background-pattern-basic-31084377.jpg");
+            background-attachment: scroll;
+            text-align: center;
+            color: black;
+            margin: 0px;
+        }
+        h1{
+            background-color: orange;
+            border-style: solid;
+            border-color: orange;
+            text-shadow: 3px 3px 2px black;
+        }
+        #textbox{
+            margin-left: 200px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.925);
+            background-position: center;
+            padding: 15px;
+            width: 950px;
+            height: 400px;
+            box-shadow: 15px 15px 5px rgb(54, 48, 48);
+        }
+        p{
+            text-align: left;
+            font-style: italic;
+            font-family: cursive;
+            font-size: x-large;
+        }
+        #f1{
+            margin-left: 200px;
+            text-align: left;
+            border-radius: 10px;
+            background: rgba(255, 166, 0, 0.822);
+            background-position: center;
+            padding: 15px;
+            width: 950px;
+            height: 250px;
+            font-family: cursive;
+            font-size: 20px;
+            box-shadow: 10px 10px 5px rgb(107, 87, 49);
+        }
+        #Submit{
+            width: 100px;
+            height: 40px;
+            background-color: yellow;
+            font-family: cursive;
+            font-weight: bold;
+            outline-style: double;
+            outline-width: 1px;
+        }
+        ul{
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: yellow;
+        }
+        li{
+            float: left;
+            border-right: 1px solid orange;
+        }
+        li:last-child{
+            border-right: none;
+        }
+        li a{
+            display: block;
+            color: orange;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: orangered;
+            color: white;
+        }
+        #operation{
+            margin-left: 15px;
+            width: 150px;
+            height: 30px;
+            border-style: double;
+            background-color: yellow;
+            border-color: black;
+        }
+        #textbox2{
+            margin-left: 200px;
+            text-align: left;
+            border-radius: 10px;
+            background: rgba(10, 233, 10, 0.911);
+            background-position: center;
+            padding: 15px;
+            width: 950px;
+            height: 150px;
+            font-family: cursive;
+            font-size: 35px;
+            box-shadow: 10px 10px 5px rgb(33, 77, 33);
+        }
+    </style>
+    <h1 style="font-weight: bolder; color: white; font-style: italic; text-align: center; margin-top: 45px;">YOUR CALCULATOR FRIEND!</h1>
+</head>
+<body>
+    <p id="textbox">
+        Want to calculate numbers faster? <strong><em>Well, you have arrived at the right destination!</em></strong>
+        <br>
+        <br>
+        <strong>This calculator can:</strong>
+        <br>
+        1) Add two numbers 
+        <br>
+        2) Subtract two numbers 
+        <br>
+        3) Do all the basic maths problems that you need help with! 
+        <br>
+        <br>
+        All that you need to do is enter any number from 1-100 in both the input fields and select your desired operation. You will get your output in the output field.
+        <br>
+        <br>
+        <strong>Happy Calculation!</strong>
+        <form id="f1" method="POST">
+            <label for="input1">First number</label>
+            <br>
+            <input type="number" id="input1" name="input1" min="0" max="100">
+            <br>
+            <label for="input2">Second number</label>
+            <br>
+            <input type="number" id="input2" name="input2" min="0" max="100">
+            <br>
+            <label for="operation">Seclect which operation you would like to perform</label>
+            <br>
+            <br>
+            <input type="button" id="operation" onclick="addition()" value="ADDITION">
+            <input type="button" id="operation" onclick="subtract()" value="SUBTRACTION">
+            <input type="button" id="operation" onclick="multiply()" value="MULTIPLICATION">
+            <input type="button" id="operation" onclick="divide()" value="DIVISION">
+            <input type="reset" id="operation" value="RESET">
+            <br>
+        </form>
+        <p id="textbox2">The result is: 
+            <br>
+            <span id="result"></span>
+        </p>
+        <ul>
+            <li><a href="https://www.symbolab.com/solver/calculus-calculator" target="_blank">Best calculus calculator!</a></li>
+            <li><a href="https://www.symbolab.com/solver/complex-numbers-calculator" target="_blank">Best Complex number calculator!</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/History_of_mathematics" target="_blank">Know more about 'Mathematics'</a></li>
+            <li><a href="https://www.thoughtco.com/biography-of-blaise-pascal-1991787" target="_blank">Know more about the inventor of calculator</a></li>
+            <li style="float: right;"><a href="https://www.linkedin.com/in/chirasmita-nanda-115438208/" target="_blank">Connect with Me!</a></li>
+        </ul>
+    </p>
+</body>
