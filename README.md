@@ -1,4 +1,4 @@
-# Hackathon-project-Calculator
+# Codathon-project-Calculator
 
 ## About
 This project is a basic mathematics calculator that has been made using HTML, CSS, and JavaScript, which are the three fundamentals of web-development. In this website, you can perform basic calculations like addition, subtraction, multiplication, and division. You can perform these calculations using whole numbers only. The website also contains links to other resources, which overall makes it a site which you can be totally dependent on for any kind of calculations that you want to perform. 
